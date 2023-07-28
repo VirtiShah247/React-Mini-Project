@@ -1,0 +1,50 @@
+.quoteMainDiv{
+    background-color: #331D2C;
+    color:White;
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(1.5);
+    border-radius: 2%;
+    width:50%;
+    box-shadow: -6px 6px 2px #A78295;
+}
+
+.quoteMainDiv>div>h1{
+    text-align: center;
+    margin-top:4vh;
+
+}
+.quoteSubDiv{
+    /* background-color: aquamarine; */
+    text-align:center;
+    /* margin: 0vh 5vh; */
+    font-size:25px;
+    margin-bottom:5vh;
+    
+    /* width:50vh */
+}
+
+.quoteSubDiv>div:nth-child(2){
+    color:#f8fbfd;
+}
+
+.quoteMainDiv>div>button{
+    /* transform: scaleX(25%); */
+    transform: scale(2) translate(180px,5px);
+    /* transform:translateX(20vh); */
+    background-color: #D49B54;
+    border:none !important;
+    border-radius: 60%;
+    /* box-shadow: #FFBC80 0px 54px 55px, #FFBC80 0px -12px 30px, #FFBC80 0px 4px 6px, #FFBC80 0px 12px 13px, #FFBC80 0px -3px 5px; */
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+    box-shadow: 0px 0px 5px 3px #D49B54
+}
+.quoteMainDiv>div>button:focus{
+    outline: none !important;
+}
+.quoteMainDiv>div>button:active{
+    transform: scale(2.1) translate(172px,5px);
+}
+

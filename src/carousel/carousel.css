@@ -1,0 +1,20 @@
+.carouselMainDiv{
+    display:grid;
+    justify-content:center;
+    align-items: center;
+    height:80vh;
+    
+}
+#mainHeading{
+    text-align:center
+}
+.buttonStyle{
+    display:"grid";
+    justify-content:"center";
+    align-items: "center";
+    margin-top:20vh;
+}
+.resizeImage{
+    height:"296px";
+    width:"474px";
+}

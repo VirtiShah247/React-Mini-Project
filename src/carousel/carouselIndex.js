@@ -1,6 +1,4 @@
 import {useState,useEffect, Fragment} from 'react'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import './carousel.css'
 export default function CarouselApp()
@@ -39,8 +37,8 @@ export default function CarouselApp()
                         <FaArrowLeft/>
                         </button>    
                     </div>
-                    <div className="col">
-                        <img src = {image} alt="Sorry" className="resizeImage"/>    
+                    <div className="col resizeImage">
+                        <img src = {image} alt="Sorry"/>    
                     </div>
                     <div className="col buttonStyle">
                         <button onClick={()=>{setCount(count===3?0:count+1);}}>

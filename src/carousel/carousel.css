@@ -2,19 +2,39 @@
     display:grid;
     justify-content:center;
     align-items: center;
-    height:80vh;
+    /* height:80vh; */
+    /* background-color: var(--violet); */
+    /* color:var(--white); */
+
     
 }
 #mainHeading{
-    text-align:center
+    text-align:center;
+    padding-top: 40px;
 }
 .buttonStyle{
     display:"grid";
     justify-content:"center";
     align-items: "center";
-    margin-top:20vh;
+    margin-top:18vh;
 }
-.resizeImage{
-    height:"296px";
-    width:"474px";
+.buttonStyle>button{
+    border:none;
+    border-radius:50%;
+    height:60px;
+    width:60px;
+    background-color: var(--paleyellow);
+}
+.buttonStyle>button:active{
+    box-shadow: 0px 0px 10px var(--paleyellow);
+}
+.buttonStyle>button:focus{
+    outline:none;
+}
+.resizeImage>img{
+    height:40vh;
+    width:60vh;
+    border-radius: 5px;
+    border:2px solid var(--paleyellow);
+    box-shadow: 5px 5px 2px 3px var(--paleyellow);
 }

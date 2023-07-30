@@ -46,9 +46,8 @@
     height:30px;
     border:none !important;
     border-radius: 50%;
-    display:grid;
-    place-items: center;
-    justify-content:center;
+    display:flex;
+    align-items:center;
 }
 .quoteMainDiv>button:focus{
     outline: none !important;

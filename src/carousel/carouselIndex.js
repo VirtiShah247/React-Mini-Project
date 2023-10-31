@@ -26,7 +26,7 @@ export default function CarouselApp()
 
     useEffect(()=>{
         setImage(imageObj[count].url)
-    },[count])
+    },[])
     return <Fragment>
         <div className='container carouselMainDiv'>
             <h3 id="mainHeading">Carousel</h3>

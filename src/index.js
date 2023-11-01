@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './components/layout';
 import CarouselApp from './carousel/carouselIndex'
 import AccordianApp from './Accordian/FAQ.js'
@@ -28,7 +28,7 @@ export default function App()
             title:"Warranty of it?",
             info:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui facere in labore maxime, assumenda iure sed tenetur alias omnis eveniet similique laborum, neque porro unde ducimus officiis animi vitae! Quidem."
         }]
-  return (<HashRouter>
+  return (<BrowserRouter>
       <Routes className="tab-content">
         <Route path="/" className="tab-pane" element={<Layout />}>
           <Route index  className="tab-pane fade" element={<CarouselApp />} />
@@ -37,7 +37,7 @@ export default function App()
           <Route path="quotes" className="tab-pane fade" element={<QuoteApp/>}/>
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
